@@ -35,7 +35,7 @@ window.addEventListener(`DOMContentLoaded`, async function() {
     let list = document.querySelector(`.products`)
 
     // Insert HTML into the products element, using the data from each product
-    list.insertAdjacentHTML(`beforeend`, `<li>temp<\li>`)
+    list.insertAdjacentHTML(`beforeend`, <li>${temp}</li>)
   }
     
     
