@@ -38,7 +38,7 @@ window.addEventListener(`DOMContentLoaded`, async function() {
     list.insertAdjacentHTML(`beforeend`, 
     `<div class="p-4 w-full md:w-1/2 lg:w-1/3">
     <div class="border h-full p-4 flex flex-col">
-      <h2 class="text-lg font-bold mb-4">${temp.h2}</h2>
+      <h2 class="text-lg font-bold mb-4">${temp.name}</h2>
       <div class="mb-4"><img src=${temp.image}>
       </div>
       <div class="mb-4 text-gray-900">
