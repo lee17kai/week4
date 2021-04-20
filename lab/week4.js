@@ -21,6 +21,8 @@ window.addEventListener(`DOMContentLoaded`, async function() {
   // Recipe:
 
   // Create a variable for the products data
+  let product = json.products
+  console.log(product)
 
   // Loop through the products data
 
