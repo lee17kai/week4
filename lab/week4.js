@@ -25,11 +25,21 @@ window.addEventListener(`DOMContentLoaded`, async function() {
   console.log(product)
 
   // Loop through the products data
+  
+  for(let i = 0; i < product.length; i++) {
 
     // Create a variable to store each product in memory
-    
+    let temp = product[i]
+
     // Create a variable for the HTML element we're going to add to
+    let tempHTML = temp.querySelector.innerHTML
 
     // Insert HTML into the products element, using the data from each product
+    temp.insertAdjacentHTML(`beforeend`, tempHTML)
+  }
+    
+    
+
+
 
 })
