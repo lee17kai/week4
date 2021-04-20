@@ -32,7 +32,7 @@ window.addEventListener(`DOMContentLoaded`, async function() {
     let temp = product[i]
 
     // Create a variable for the HTML element we're going to add to
-    let list = temp.querySelector(`.products`)
+    let list = document.querySelector(`.products`)
 
     // Insert HTML into the products element, using the data from each product
     list.insertAdjacentHTML(`beforeend`, `<li>temp<\li>`)
